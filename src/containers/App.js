@@ -1,11 +1,14 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react';
+import CounterContainer from "./CounterContainer";
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
-        Counter
+        <CounterContainer/>
       </div>
     );
   }
 }
+
+export default App;
